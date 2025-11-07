@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daftar Menu | Kopi Santai</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <h1>Kopi Santai </h1>
+        <p class="tagline">Cita Rasa Hangat di Setiap Tegukan</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="menu.html" class="active">Menu</a></li>
+          <li><a href="#">Tentang</a></li>
+          <li><a href="#">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="menu-filter">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="coffee">Coffee</button>
+    <button data-filter="non-coffee">Non-Coffee</button>
+    <button data-filter="food">Food</button>
+    <button data-filter="snacks">Snacks</button>
+  </section>
+
+  <section class="menu-grid">
+    <h2>Daftar Menu Lengkap</h2>
+    <div class="grid-container">
+
+      <article class="menu-item" data-category="coffee">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" alt="Espresso" />
+          <figcaption>Espresso</figcaption>
+        </figure>
+        <h3>Espresso <mark>Best Seller</mark></h3>
+        <p>Kopi hitam pekat dengan cita rasa kuat dan aromatik.</p>
+        <p class="price">Rp 20.000</p>
+      </article>
+
+      <article class="menu-item" data-category="coffee">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Cappuccino" />
+          <figcaption>Cappuccino</figcaption>
+        </figure>
+        <h3>Cappuccino</h3>
+        <p>Perpaduan espresso, susu, dan busa lembut di atasnya.</p>
+        <p class="price">Rp 25.000</p>
+      </article>
+
+      <article class="menu-item" data-category="coffee">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1523942839745-7848d4f3d6c6" alt="Latte" />
+          <figcaption>Latte</figcaption>
+        </figure>
+        <h3>Latte</h3>
+        <p>Kopi susu dengan rasa lembut dan creamy.</p>
+        <p class="price">Rp 24.000</p>
+      </article>
+
+      <article class="menu-item" data-category="coffee">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1561047029-3000e92f5b54" alt="Americano" />
+          <figcaption>Americano</figcaption>
+        </figure>
+        <h3>Americano</h3>
+        <p>Espresso yang dicampur dengan air panas untuk rasa ringan.</p>
+        <p class="price">Rp 22.000</p>
+      </article>
+
+      <article class="menu-item" data-category="non-coffee">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1600121848594-1d5e6c2be9d7" alt="Chocolate" />
+          <figcaption>Chocolate</figcaption>
+        </figure>
+        <h3>Hot Chocolate <mark>New</mark></h3>
+        <p>Minuman coklat panas yang manis dan lembut.</p>
+        <p class="price">Rp 23.000</p>
+      </article>
+
+      <article class="menu-item" data-category="non-coffee">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1609941389322-10d69f9d38d7" alt="Matcha" />
+          <figcaption>Matcha Latte</figcaption>
+        </figure>
+        <h3>Matcha Latte</h3>
+        <p>Perpaduan teh hijau Jepang dan susu yang creamy.</p>
+        <p class="price">Rp 26.000</p>
+      </article>
+
+      <article class="menu-item" data-category="non-coffee">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1524594227084-df94fd873b1f" alt="Tea" />
+          <figcaption>Black Tea</figcaption>
+        </figure>
+        <h3>Black Tea</h3>
+        <p>Teh hitam klasik dengan aroma menenangkan.</p>
+        <p class="price">Rp 18.000</p>
+      </article>
+
+      <article class="menu-item" data-category="food">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1604908812660-5ee84dfcbf1d" alt="Pasta" />
+          <figcaption>Pasta</figcaption>
+        </figure>
+        <h3>Pasta Carbonara</h3>
+        <p>Pasta creamy dengan saus keju dan daging asap.</p>
+        <p class="price">Rp 35.000</p>
+      </article>
+
+      <article class="menu-item" data-category="food">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1565958011705-44e211c0a6b9" alt="Sandwich" />
+          <figcaption>Sandwich</figcaption>
+        </figure>
+        <h3>Chicken Sandwich</h3>
+        <p>Roti isi ayam panggang, sayur segar, dan saus spesial.</p>
+        <p class="price">Rp 28.000</p>
+      </article>
+
+      <article class="menu-item" data-category="food">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994" alt="Salad" />
+          <figcaption>Salad</figcaption>
+        </figure>
+        <h3>Fresh Salad</h3>
+        <p>Campuran sayur segar dengan dressing lemon.</p>
+        <p class="price">Rp 25.000</p>
+      </article>
+
+      <!-- Snacks -->
+      <article class="menu-item" data-category="snacks">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1601972599720-5d9fbd7c8202" alt="Cake" />
+          <figcaption>Chocolate Cake</figcaption>
+        </figure>
+        <h3>Chocolate Cake</h3>
+        <p>Kue coklat lembut dengan topping krim manis.</p>
+        <p class="price">Rp 20.000</p>
+      </article>
+
+      <article class="menu-item" data-category="snacks">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1606312619070-dc3d02422d59" alt="Cookies" />
+          <figcaption>Cookies</figcaption>
+        </figure>
+        <h3>Butter Cookies</h3>
+        <p>Kue kering lembut dan renyah dengan rasa butter.</p>
+        <p class="price">Rp 15.000</p>
+      </article>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <address>
+        Jl. Kenangan No. 42, Bandung<br>
+        <a href="tel:+6281234567890">+62 812-3456-7890</a><br>
+        <a href="mailto:info@kanashacoffee.com">info@kanashacoffee.com</a>
+      </address>
+      <div>
+        <h4>Ikuti Kami</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">© 2025 Kanasha Coffee. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const buttons = document.querySelectorAll('.menu-filter button');
+    const items = document.querySelectorAll('.menu-item');
+
+    buttons.forEach(button => {
+      button.addEventListener('click', () => {
+        const filter = button.getAttribute('data-filter');
+
+        buttons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+
+        items.forEach(item => {
+          if (filter === 'all' || item.dataset.category === filter) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>

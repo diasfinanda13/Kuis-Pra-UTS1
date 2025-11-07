@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservation | Kopi Santai</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav-container">
+      <h1 class="logo"> Kopi Santai</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="reservation.html" class="active">Reservation</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="reservation-form">
+      <h2>Formulir Reservasi</h2>
+      <form action="#" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telepon">Nomor Telepon:</label>
+        <input type="tel" id="telepon" name="telepon" required>
+
+        <label for="tanggal">Tanggal Reservasi:</label>
+        <input type="date" id="tanggal" name="tanggal" required>
+
+        <label for="jam">Jam:</label>
+        <input type="time" id="jam" name="jam" required>
+
+        <label for="jumlah">Jumlah Orang:</label>
+        <input type="number" id="jumlah" name="jumlah" min="1" required>
+
+        <label for="pesan">Pesan Tambahan:</label>
+        <textarea id="pesan" name="pesan" rows="4"></textarea>
+
+        <button type="submit" class="btn-primary">Kirim Reservasi</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Kopi Santai | Reservasi</p>
+  </footer>
+</body>
+</html>
